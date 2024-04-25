@@ -86,7 +86,6 @@ folder_full = "dataset_full/"
 person_name = input('Entre com o seu nome: ')
 person_ra = input('Entre com seu RA: ')
 person_idade = input('Entre com a sua idade: ')
-person_cpf = input('Entre com seu CPF: ')
 person_name = parse_name(person_name)
 
 final_path = os.path.sep.join([folder_faces, person_name])
